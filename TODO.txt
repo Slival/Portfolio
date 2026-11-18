@@ -3,3 +3,4 @@ The great todo
 Edit image to add back in my name and "programmeur généraliste".
 Blurr background image slightly to make it so viewers will not focus on it.
 Replace some (all preferably) to not be plaintext
+Headers for gamejams

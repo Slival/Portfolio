@@ -1,420 +1,314 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
-    <link rel="stylesheet" href="css/all.min.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/templatemo-style.css" />
-    <title>Guillaume LM - Portfolio</title>
-    
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guillaume Lamontagne Morin — Programmeur de jeux vidéo</title>
+  <meta name="description" content="Guillaume Lamontagne Morin, game programmer (gameplay, systems, UI). Co-developer of GemTide on Steam." />
+  <meta property="og:title" content="Guillaume Lamontagne Morin" />
+  <meta property="og:description" content="Game programmer. Co-developer of GemTide, demo out now on Steam." />
+  <meta property="og:image" content="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4770100/04d0e96074c796e2ab2485efcabb6c0f0830d6e0/header.jpg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" />
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/main.js"></script>
+</head>
+<body>
+
 <!--
-Mini Profile Template
-https://templatemo.com/tm-530-mini-profile
+  HOW TO EDIT
+  - Every sentence exists twice: data-l="fr" and data-l="en".
+  - Boxes with class="yours" are placeholders for your own words
+    (questions are in portfolio-worksheet.md, one folder up).
+  - Project images: swap the logo for a GIF/MP4 in the project__media block
+    and remove the "logo" class.
 -->
-  </head>
-  <body class="black-background">
-    <!-- Welcome Section -->
-    <section id="tmWelcome" class="parallax-window" data-parallax="scroll" data-image-src="img/dont_spread_it.png">
-	
-	
-	<div class="container-fluid tm-brand-container-outer" style="align-items:center;">
-		<div class="tm-bg-black-transparent text-white col-12" style="width:250px; height:70px; float:right;">
-			<form action="index_en.html" align="right">
-				<p class="tm-brand-description mb-0" style="float:left; margin:15px;">English</p>
-				<input type="image" src="img/en_flag.png" style="width:80px; height:50px; float:right; margin:10px;" src="index_en.html"/>
-			</form>
-		</div>
-           
-		<br><br><br>
-		
-        <div class="col-12">
-            <!-- Logo Area -->
-            <!-- Black transparent bg -->
-            <div class="ml-auto mr-0 tm-bg-black-transparent text-white tm-brand-container-inner">
-				<div class="tm-brand-container text-center">
-					<h1 class="tm-brand-name">Guillaume L Morin</h1>
-					<p class="tm-brand-description mb-0"> Jeux vidéos / Programmeur généraliste</p>
-				</div>
-            </div>
-        </div>
+
+<header class="top">
+  <div class="wrap">
+    <a class="top__name" href="#">Guillaume L. Morin</a>
+    <nav>
+      <a href="#gemtide">GemTide</a>
+      <a href="#games"><span data-l="fr">Jeux</span><span data-l="en">Games</span></a>
+      <a href="#work"><span data-l="fr">Expérience</span><span data-l="en">Work</span></a>
+      <a href="#about"><span data-l="fr">À propos</span><span data-l="en">About</span></a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="lang-toggle" class="lang" type="button"><b>FR</b> / EN</button>
+  </div>
+</header>
+
+<main>
+
+  <!-- ========== INTRO ========== -->
+  <section class="intro">
+    <div class="wrap">
+      <h1>Guillaume Lamontagne Morin</h1>
+      <p class="intro__what">
+        <span data-l="fr">Programmeur de jeux vidéo · gameplay, systèmes et UI · Unity / C# · C++</span>
+        <span data-l="en">Game programmer · gameplay, systems and UI · Unity / C# · C++</span>
+      </p>
+
+      <!-- Worksheet Q1 -->
+      <p class="intro__text" data-l="fr">Je m'occupe d'amener un produit à terme, peu importe la tâche. Je suis très polyvalent&nbsp;: en ce moment, je co-développe GemTide, un jeu incrémental avec plusieurs systèmes complexes que j'ai personnellement aidé à conceptualiser, implémenter et itérer grâce aux retours de nos usagers. On n'est que trois, donc je m'occupe même en partie du marketing!</p>
+      <p class="intro__text" data-l="fr">De jour, je travaille sur la suite d'applications minières de DMCTI en tant que programmeur généraliste, principalement en charge de tous les aspects de l'interface, de la stabilité de l'application autant sur Windows que sur Android, et de l'ajout de nouvelles fonctionnalités.</p>
+      <p class="intro__text" data-l="en">I see products through to the end, whatever the task. I'm very versatile: right now, I'm co-developing GemTide, an incremental game with several complex systems that I personally helped design, implement and iterate on based on our players' feedback. There are only three of us, so I even handle part of the marketing!</p>
+      <p class="intro__text" data-l="en">By day, I work on DMCTI's suite of mining applications as a generalist programmer, mainly in charge of everything UI, keeping the app stable on both Windows and Android, and adding new features.</p>
+
+      <div class="actions">
+        <a class="button" href="https://store.steampowered.com/app/4770100/Gemtide/" target="_blank" rel="noopener">
+          <span data-l="fr">GemTide sur Steam</span><span data-l="en">GemTide on Steam</span>
+        </a>
+        <a href="mailto:guillaumelm@msn.com">guillaumelm@msn.com</a>
+      </div>
+
+      <div class="showcase video">
+        <iframe src="https://www.youtube-nocookie.com/embed/saL3cJnkfu4?rel=0" title="GemTide — demo trailer"
+                loading="lazy" referrerpolicy="strict-origin-when-cross-origin"
+                allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>
+      </div>
+      <!-- YouTube refuses to play embeds when the page is opened as a file (error 153).
+           Preview through the local server instead; this link is the fallback. -->
+      <p class="video__alt soft">
+        <a href="https://www.youtube.com/watch?v=saL3cJnkfu4" target="_blank" rel="noopener">
+          <span data-l="fr">Voir la bande-annonce sur YouTube</span><span data-l="en">Watch the trailer on YouTube</span>
+        </a>
+      </p>
     </div>
+  </section>
 
-      <div class="tm-bg-black-transparent tm-welcome-container">
-        <div class="container-fluid">
-          <div class="row h-100">
-            <!-- Welcome Text -->
-            <!-- White transparent bg -->
-            <div class="transparent-background col-md-7 tm-welcome-left-col">
-              <div class="tm-welcome-left">
-                <h2 class="tm-welcome-title">Bienvenue dans mon portfolio!</h2>
-                <p class="pb-0">
-                  Bonjour, je me présente: Guillaume Lamontagne Morin. Je possède un baccalauréat en développement de jeux vidéo de l'UQAC. <br><br>
-				  J'ai un DEC en informatique générale du Cégep d'Alma durant lequel j'ai vraiment accroché au cours de programmation de jeu vidéo en c++. <br><br>
-				  Au travers de mon parcours, j'ai travaillé avec des outils tel que Unity, Unreal Engine, Perfoce et Git. <br><br>
-				  Je suis un membre de l'équipe qui a gagné le prix de la meilleure direction artistique au Concours Ubisoft 2021 avec le jeu en ligne coopératif Potent Rodent.
-				</p>
-              </div>
-              <div class="logo-bar" >
-				<img src="img/unity_logo.png" class="logo" ></img>
-				<img src="img/unreal_logo.png" class="logo" ></img>
-				<img src="img/perforce_logo.png" class="logo" ></img>
-				<img src="img/git_logo.png" class="logo" ></img>
-              </div>
-            </div>
-            <!-- Brown bg -->
-            <div class="transparent-background col-md-5">
-              <div class="tm-welcome-right">
-			  <iframe width="420" height="315" src="https://www.youtube.com/embed/p4Gh7OLgYhg" class="HeaderImage"> </iframe>
-				<!--img src="img/potentRodent2.png" class="HeaderImage"></img-->
-              </div>
-            </div>
+  <!-- ========== GEMTIDE ========== -->
+  <section id="gemtide">
+    <div class="wrap">
+      <h2>GemTide</h2>
+      <p class="facts">
+        <span>doremink, Saguenay</span>
+        <span>Unity</span>
+        <span data-l="fr">équipe de 3</span><span data-l="en">team of 3</span>
+        <span data-l="fr">démo sur Steam</span><span data-l="en">demo on Steam</span>
+        <span data-l="fr">sortie prévue T1 2027</span><span data-l="en">release planned Q1 2027</span>
+      </p>
+
+      <div class="gemtide">
+        <div>
+          <p>
+            <span data-l="fr"><strong>Mon rôle&nbsp;:</strong> programmeur gameplay, programmeur UI et game designer.</span>
+            <span data-l="en"><strong>My role:</strong> gameplay programmer, UI programmer and game designer.</span>
+          </p>
+
+          <!-- Worksheet Q2 -->
+          <p data-l="fr">J'ai commencé ce projet dans l'optique d'enfin mener ma vision et mes efforts à terme, peu importe les obstacles imprévus que comportent la création et la publication d'un jeu, aux côtés de deux personnes à qui je sais que je peux facilement faire confiance.</p>
+          <p data-l="fr">Avec plusieurs versions bêta publiées sur Steam et une campagne de marketing qui nous a apporté 150 wishlists jusqu'ici, c'est un projet encore en cours dont je suis déjà fier!</p>
+          <p data-l="en">I started this project to finally see my vision and my efforts through to the end, whatever unexpected obstacles making and publishing a game might bring, alongside two people I know I can easily trust.</p>
+          <p data-l="en">With several beta versions released on Steam and a marketing campaign that has brought in 150 wishlists so far, it's still a work in progress, and one I'm already proud of!</p>
+
+          <!-- Worksheet Q3 -->
+          <p data-l="fr">Au sein de l'équipe, j'ai été en charge de plusieurs grands chantiers&nbsp;:</p>
+          <ul data-l="fr">
+            <li>le design et la création d'un arbre de talents engageant, avec une économie qui a du sens tout au long des 4 heures de jeu prévues;</li>
+            <li>l'ajout d'une interface pour accéder aux succès du jeu, liée au système de succès Steam;</li>
+            <li>un système de flocking et les sprites des poissons, autant ceux qui sont cosmétiques que ceux qui participent activement au jeu comme l'une des armes disponibles.</li>
+          </ul>
+          <p data-l="fr">Et bien plus! On s'entraide quand on peut, on utilise Trello pour gérer les tâches, et on fait des meetings régulièrement pour s'assurer du bon cours du projet.</p>
+          <p data-l="en">On the team, I took on several big pieces of work:</p>
+          <ul data-l="en">
+            <li>designing and building an engaging talent tree, with an economy that makes sense across the 4 hours of planned play;</li>
+            <li>adding an interface to browse the game's achievements, linked to Steam's achievement system;</li>
+            <li>a flocking system and sprites for the fish, both the cosmetic ones and the ones that take an active part in the game as one of the available weapons.</li>
+          </ul>
+          <p data-l="en">And much more! We help each other out when we can, use Trello to manage tasks, and hold regular meetings to make sure the project stays on track.</p>
+
+          <!-- Worksheet Q4 -->
+          <h3><span data-l="fr">Le plus difficile</span><span data-l="en">The hardest part</span></h3>
+          <p data-l="fr">La plus grande difficulté dans GemTide, outre le marketing qu'on a dû apprendre sur le tas, est le maintien de l'équilibrage du jeu. Chaque système ajouté, chaque modification touchant à l'équilibrage, doit être fait avec une grande attention au détail et en ayant conscience de ce qui est disponible dans toutes les sphères du jeu.</p>
+          <p data-l="en">The biggest challenge in GemTide, apart from the marketing we had to learn on the fly, is keeping the game balanced. Every system we add, every change that touches the balance, has to be made with great attention to detail and with an awareness of what's available in every part of the game.</p>
+
+          <div class="actions">
+            <a class="button" href="https://store.steampowered.com/app/4770100/Gemtide/" target="_blank" rel="noopener">
+              <span data-l="fr">Ajouter à ma liste de souhaits</span><span data-l="en">Wishlist on Steam</span>
+            </a>
+            <a href="https://doremink.github.io/gemtide-presskit/" target="_blank" rel="noopener">
+              <span data-l="fr">Dossier de presse</span><span data-l="en">Press kit</span>
+            </a>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- End Welcome section -->
-
-
-<!-- TODO: Split this section into 2 with bars separating the two and a header title for "Work experiences" and "Games I've worked on (projects)" ->>
-<!-- TODO: Change the box used for the job title to display location instead, then the date. ->>
-    <!-- Portfolio section -->
-    <section id="tmPortfolio">
-      <div class="container-fluid black-background">
-        <div class="row black-background">
-          <div class="col-12 black-background">
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name">
-				<a href="https://www.cgi.com/" target=”_blank”>
-				  <img src="img/CGI_logo.png" width="100%">
-				</a>
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-cgi" color="#e31937">
-					Programmeur Généraliste (2018)
-                </h3>
-                <p class="mb-0">
-					À CGI, mon premier stage faisant partie de ma dernière session de cegep en informatique, j'ai principalement travaillé en COBOL et JCL, pour la Banque Nationalle.
-					Ce fut une expérience de travail intéressante et très corporative, malgré le fait que ces anciens languages étaient difficile à utiliser.
-                </p>
-              </div>
-            </div>
-
-
-
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name">
-				<a href="https://www.newmont.com/operations-and-projects/global-presence/north-america/eleonore-canada/default.aspx" target=”_blank”>
-				  <img src="img/newmont_logo.png" width="100%">
-				</a>
-				
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-newmont">
-				  Technicien Informatique (2019-2020)
-                </h3>
-                <p class="mb-0">
-                  J'ai travaillé avec un système de backlog complexe pour gêrer les besoins d'un site minier d'environ 800 personnes, dans une équipe de 5 techniciens.
-				  Ces tâches allaient des plus simple tels que l'installation d'imprimante sur le réseau minier et le reformatage d'ordinateur, à des tâches bien plus complexe comme l'assistance sur plusieurs semaines à la migration de tout les comptes usagers sur site vers un nouveau système de base de données et de nouvelles applications.
-                </p>
-              </div>
-            </div>
-			
-			<hr>
-
-
-
-
-
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name">
-				<a href="https://choccymilk.itch.io/feature-hunter" target=”_blank”>
-				  <img src="img/feature_hunter_logo.png" width="100%">
-				</a>
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-pr">
-				  Programmeur (2022)
-                </h3>
-                <p class="mb-0">
-				  Feature Hunter est ma création la plus récente, lors du Wonderjam UQAC de l'automne 2022.
-				  J'ai participé à beaucoup d'aspects du jeu: le système d'entrées utilisateur, le système d'arme ainsi que leurs animations, divers menu de jeu et un manager de scènes.
-				  Évidement, j'ai aussi beaucoup aidé l'équipe à corriger d'innombrables bugs créés et découvert lors du game jam.
-                </p>
-              </div>
-            </div>
-			
-
-
-
-
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name">
-				<a href="https://www.youtube.com/watch?v=p4Gh7OLgYhg" target=”_blank”>
-				  <img src="img/potent_rodent_logo.png" width="100%">
-				</a>
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-pr">
-				  Programmeur / Level Designer (2021)
-                </h3>
-                <p class="mb-0">
-				  Potent Rodent est le jeu que moi et mon équipe ont créé lors du concours Ubisoft 2021.
-				  C'est un jeu en ligne coopératif basé sur l'attraction et la répulsion magnétique entre les deux joueurs, ce qui a nécéssité beaucoup de temps à configurer en ligne. J'ai supporté mes coéquipiers dans la plupart des systèmes, surtout pour le mouvement et les états d'attraction.
-				  Je suis aussi plutôt fier de mon aide apportée au côté level design du jeu.
-                </p>
-              </div>
-            </div>
-			
-			
-			<div class="tm-portfolio-item">
-              <div class="tm-portfolio-name">
-				<a href="https://choccymilk.itch.io/pachinko-mountain" target=”_blank”>
-				  <img src="img/pachinko_logo.png" width="100%">
-				</a>
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-pachinko">
-				  Programmeur (2021)
-                </h3>
-                <p class="mb-0">
-				  Pachinko Mountain est un party game physics-based où les joueurs doivent monter au travers de divers environnement à l'aide de leurs grapins et des éléments dans l'environnement.
-				  J'ai travaillé en grande partie sur le mouvement des joueurs avec le nouveau système d'input de Unity et de la mécanique de grapin du jeu. Le personnage fonctionne aussi avec une state machine pour permettre la gestion de tout ses états possibles. J'ai aussi aidé à l'intégration des sons, et travaillé sur le design de deux des quatre niveaux dans le jeu.
-                </p>
-              </div>
-            </div>
-			
-
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name">
-				<a href="https://ballondeplage.itch.io/knock-knock" target=”_blank”>
-				  <img src="img/knock-knock_logo.png" width="100%">
-				</a>
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-knockknock">
-				  Programmeur (2021)
-                </h3>
-                <p class="mb-0">
-				  Knock-Knock est un jeu d'horreur et de survie dans lequel deux joueurs doivent s'enfuir d'un monstre.
-				  J'ai contribué à l'éclairage du jeu et certains autres systèmes évoluant selon le temps écoulé du jeu, ainsi qu'à l'IA du monstre, gêré par une state machine qui était prometteuse mais, malheureusement, a été implémentée très dernière minute avec quelques bugs.
-                </p>
-              </div>
-            </div>
-			
-			
-
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name">
-				<a href="https://julienbil.itch.io/the-vocalomancer" target=”_blank”>
-				  <img src="img/vocalomancer_logo.png" width="100%">
-				</a>
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-vocalomancer">
-				  Programmeur / Level Designer (2020)
-                </h3>
-                <p class="mb-0">
-                  Un jeu de puzzle/platforming qui est une entrée au Wonderjam UQAC Automne 2020 fait à 2, basée sur le text-to-speech et les commandes entrées par le joueur.
-				  Je me suis occupé en grande partie du mouvement, de certaines commandes text-to-speech et de la plupart du level design.
-                </p>
-              </div>
-            </div>
-			
-			
-
-			
-			
-			
-			
-			
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name">
-				<!--a href="don'tspreaditurl"-->
-				  <img src="img/dsp_logo.png" width="100%">
-				<!--/a-->
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-dsp">
-					Programmeur (2019-2020)
-                </h3>
-                <p class="mb-0">
-					Ma première expérience de création de jeu vidéo en groupe est ce jeu sérieux où le joueur doit magaziner dans une centre d'achat tout en évitant les passants visant à sensibiliser les joueurs à la propagation de virus dans des lieux public.
-					J'ai personnellement travaillé sur le système permetant la propagation de ce virus entre joueur, personnages non joueur et autres points d'intêrets, ainsi que sur le mouvement du joueur.
-                </p>
-              </div>
-            </div>
-			
-			
-            <div class="tm-portfolio-item">
-              <div class="tm-portfolio-name">
-				<a href="https://gamejolt.com/games/ascentop/400376" target=”_blank”>
-				  <img src="img/wonderjam_logo.png" width="100%">
-				</a>
-				<!--div style="margin:auto"-->
-				<!--/div-->
-              </div>
-              <div class="tm-portfolio-description">
-                <h3 class="tm-text-ascentop">
-				  Programmeur (2019)
-                </h3>
-                <p class="mb-0">
-                  Ascentop fut mon tout premier Gamejam au Wonderjam de l'hiver 2019. J'ai travaillé sur le UI, le système de power-up et les torches qui ont une intensité dynamique et réagissent à l'eau.
-                </p>
-              </div>
-            </div>
-          </div>
+        <div class="shots">
+          <!-- Swap these for your own GemTide GIFs when you have them. -->
+          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4770100/bc3e01a52b0b6b2aa42d3356af3a033e2f7db3f3/ss_bc3e01a52b0b6b2aa42d3356af3a033e2f7db3f3.1920x1080.jpg" alt="GemTide" loading="lazy" />
+          <img src="https://doremink.github.io/gemtide-presskit/images/gemtide_full_big.png" alt="GemTide" loading="lazy" />
         </div>
       </div>
-    </section>
-    <!-- End portfolio section -->
-
-    <!-- Contact section -->
-    <div id="tmContact" class="parallax-window" data-parallax="scroll" data-image-src="img/caledonie.png">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div class="tm-contact-items-container">
-              <div class="tm-contact-item black-background">
-                <img src="img/Speech_Bubble.png" class="CenteredImage"></img>
-                <p class="text-center">
-				  Après avoir voyagé à travers le monde lors de mon enfance, notamment en Tanzanie et en Nouvelle-Calédonie, je suis bilingue (écrit et parlé), habitué au changement et ouvert d'esprit!
-                </p>
-              </div>
-              <div class="tm-contact-item black-background">
-				<img src="img/Controller.png" class="CenteredImage" ></img>
-                <p class="text-center">
-					Je suis passionné par les jeux de stratégie toujours mais suis aussi un grand fan de Roguelikes et TCG. J'ai aussi un faible pour les jeux de rôles, plus précisément pour le worldbuilding, et les jeux qui y prêtent attention tel que Donjons et Dragons.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-		
-    <!-- Contact section -->
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div class="tm-contact-items-container-final tm-bg-black-transparent">
-                <p class="text-center">
-					Vous pouvez me contacter à partir de mon adresse mail, <a href="mailto: guillaumelm@msn.com">Guillaumelm@msn.com</a>,<br>
-					ou mon numéro de téléphonne personnel au 581-230-3833.
-                </p>
-            </div>
-          </div>
-        </div>
-      </div>
-	  
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <div class="tm-contact-items-container-final tm-bg-black-transparent">
-                <p class="text-center">
-					Copyright 2020 Mini Profile Page 
-					
-					- Design: Template Mo</p>
-                </p>
-            </div>
-          </div>
-        </div>
-      </div>
-<!-- J'ai fait la migration en/fr important a mentionner -->
-        <!--div class="row">
-          <div class="col-12">
-            <form
-              action="index.html"
-              method="POST"
-              id="tmContactForm"
-              class="tm-bg-white-transparent"
-            >
-              <div class="form-group">
-                <input
-                  type="text"
-                  id="contact_name"
-                  name="contact_name"
-                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
-                  placeholder="Name"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <input
-                  type="email"
-                  id="contact_email"
-                  name="contact_email"
-                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
-                  placeholder="Email"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <textarea
-                  rows="4"
-                  id="contact_message"
-                  name="contact_message"
-                  class="form-control rounded-0 border-top-0 border-right-0 border-left-0"
-                  placeholder="Message"
-                  required
-                ></textarea>
-              </div>
-              <div class="text-center">
-                <button
-                  type="submit"
-                  class="btn tm-btn-submit rounded-0 text-white"
-                >
-                  Submit
-                </button>
-              </div>
-            </form>
-          </div>
-        </div> -->
-        <!-- row -->
-        <div class="row">
-          <footer class="col-12">
-            <p class="text-center tm-copyright-text tm-bg-black-transparent">
-          </footer>
-        </div>
-      </div>
-      <!-- container -->
     </div>
-    <!-- section -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/parallax.min.js"></script>
-    <script>
-      function detectMsBrowser() {
-        using_ms_browser =
-          navigator.appName == "Microsoft Internet Explorer" ||
-          (navigator.appName == "Netscape" &&
-            navigator.appVersion.indexOf("Edge") > -1) ||
-          (navigator.appName == "Netscape" &&
-            navigator.appVersion.indexOf("Trident") > -1);
+  </section>
 
-        if (using_ms_browser == true) {
-          alert(
-            "Please use Chrome or Firefox for the best browsing experience!"
-          );
-        }
-      }
-      function setBrandMarginTop() {
-        var bottomContainerHeight = $(".tm-welcome-container").height();
+  <!-- ========== OTHER GAMES ==========
+       Descriptions below are from the original site (typos fixed only). -->
+  <section id="games">
+    <div class="wrap">
+      <h2><span data-l="fr">Autres jeux</span><span data-l="en">Other games</span></h2>
 
-        $(".tm-brand-container-outer").css({
-          "margin-top": -bottomContainerHeight + "px"
-        });
-      }
+      <article class="project">
+        <div class="project__media"><img src="img/orbius_logo.png" alt="Orbius" loading="lazy" /></div>
+        <div>
+          <h3>Orbius</h3>
+          <p class="project__meta">2023 · Unity · Wonderjam UQAC · <span data-l="fr">Programmeur</span><span data-l="en">Programmer</span></p>
+          <p data-l="fr">Orbius est un jeu combinant des genres assez uniques&nbsp;: le jeu de rythme et le combat tour par tour. Inspiré de jeux tels que Crypt of the NecroDancer et Slay the Spire, c'est un jeu multijoueur où un groupe de mages se bat en lançant des sortilèges un à un. J'ai créé la majorité du système de cartes et de main des joueurs, entre autres.</p>
+          <p data-l="en">Orbius is a game combining two unlikely genres: rhythm games and turn-based, multiplayer combat. Inspired by games such as Crypt of the NecroDancer and Slay the Spire, it's a game where mages must fight each other by casting spells one after the other. My main contribution was creating most of the hand and card management systems.</p>
+          <a href="https://choccymilk.itch.io/orbius" target="_blank" rel="noopener"><span data-l="fr">Jouer sur itch.io</span><span data-l="en">Play on itch.io</span></a>
+        </div>
+      </article>
 
-      $(function() {
-        setBrandMarginTop();
-        detectMsBrowser();
+      <article class="project">
+        <div class="project__media"><img src="img/feature_hunter_logo.png" alt="Feature Hunter" loading="lazy" /></div>
+        <div>
+          <h3>Feature Hunter</h3>
+          <p class="project__meta">2022 · Unity · Wonderjam UQAC · <span data-l="fr">Programmeur</span><span data-l="en">Programmer</span></p>
+          <p data-l="fr">Feature Hunter a été créé lors du Wonderjam UQAC de l'automne 2022. J'ai participé à beaucoup d'aspects du jeu&nbsp;: le système d'entrées utilisateur, le système d'armes ainsi que leurs animations, divers menus de jeu et un manager de scènes. Évidemment, j'ai aussi beaucoup aidé l'équipe à corriger d'innombrables bugs créés et découverts lors du game jam.</p>
+          <p data-l="en">Feature Hunter was made during UQAC's autumn Wonderjam of 2022. I worked on several diverse systems for this game: all player inputs were implemented and handled by code I made, I played a good part in implementing the weapon system along with some of the animations related to it, and made several menus and the game manager, which interacted with both said menus and level transitions. I also worked on numerous bugs which either myself or others in the team encountered during the project.</p>
+          <a href="https://choccymilk.itch.io/feature-hunter" target="_blank" rel="noopener"><span data-l="fr">Jouer sur itch.io</span><span data-l="en">Play on itch.io</span></a>
+        </div>
+      </article>
 
-        // Handle window resize event
-        $(window).resize(function() {
-          setBrandMarginTop();
-        });
-      });
-    </script>
-  </body>
+      <article class="project">
+        <div class="project__media logo"><img src="img/potent_rodent_logo.png" alt="Potent Rodent" loading="lazy" /></div>
+        <div>
+          <h3>Potent Rodent</h3>
+          <p class="project__meta">2021 · Unreal · Ubisoft Game Lab · <span data-l="fr">Programmeur / level designer</span><span data-l="en">Programmer / level designer</span><br>
+            <span class="award"><span data-l="fr">Prix de la meilleure direction artistique</span><span data-l="en">Best Art Direction award</span></span></p>
+          <p data-l="fr">Potent Rodent est le jeu que mon équipe et moi avons créé lors du concours Ubisoft 2021. C'est un jeu en ligne coopératif basé sur l'attraction et la répulsion magnétique entre les deux joueurs, ce qui a nécessité beaucoup de temps à configurer en ligne. J'ai supporté mes coéquipiers dans la plupart des systèmes, surtout pour le mouvement et les états d'attraction. Je suis aussi plutôt fier de mon aide apportée au côté level design du jeu.</p>
+          <p data-l="en">Potent Rodent is the game that my team and I made during the Ubisoft Game Lab Competition of 2021. It's an online, cooperative game based on the magnetic attraction and repulsion between two players. This needed a LOT of time due to the massive endeavour that the online replication of these magnetic forces turned out to be, but I'm quite proud of the final project in the end. I'm also very proud of the help I gave with the game's general level design, despite it not being my main role in the team.</p>
+          <a href="https://www.youtube.com/watch?v=p4Gh7OLgYhg" target="_blank" rel="noopener"><span data-l="fr">Voir la vidéo</span><span data-l="en">Watch the video</span></a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__media logo"><img src="img/pachinko_logo.png" alt="Pachinko Mountain" loading="lazy" /></div>
+        <div>
+          <h3>Pachinko Mountain</h3>
+          <p class="project__meta">2021 · Unity · Game jam · <span data-l="fr">Programmeur</span><span data-l="en">Programmer</span></p>
+          <p data-l="fr">Pachinko Mountain est un party game basé sur la physique où les joueurs doivent monter au travers de divers environnements à l'aide de leurs grappins et des éléments dans l'environnement. J'ai travaillé en grande partie sur le mouvement des joueurs avec le nouveau système d'input de Unity et sur la mécanique de grappin du jeu. Le personnage fonctionne aussi avec une state machine pour permettre la gestion de tous ses états possibles. J'ai aussi aidé à l'intégration des sons, et travaillé sur le design de deux des quatre niveaux du jeu.</p>
+          <p data-l="en">Pachinko Mountain is a physics-based party game where 1–4 players must climb up through levels and go past various obstacles in order to be the first to reach the top, with the help of their grapples. I mostly used Unity's somewhat new input system to handle the player's movements, along with the grapple's effect on the player. The player character works through a state machine handling what state it can be left in, and I also did a lot of various small tweaks and helped with sound integration and level design on half of the levels.</p>
+          <a href="https://choccymilk.itch.io/pachinko-mountain" target="_blank" rel="noopener"><span data-l="fr">Jouer sur itch.io</span><span data-l="en">Play on itch.io</span></a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__media logo"><img src="img/knock-knock_logo.png" alt="Knock-Knock" loading="lazy" /></div>
+        <div>
+          <h3>Knock-Knock</h3>
+          <p class="project__meta">2021 · Unity · <span data-l="fr">Programmeur</span><span data-l="en">Programmer</span></p>
+          <p data-l="fr">Knock-Knock est un jeu d'horreur et de survie dans lequel deux joueurs doivent s'enfuir d'un monstre. J'ai contribué à l'éclairage du jeu et à certains autres systèmes évoluant selon le temps écoulé, ainsi qu'à l'IA du monstre, gérée par une state machine.</p>
+          <p data-l="en">Knock-Knock is a horror/survival game where two players must survive a night in a house with a roaming monster and limited resources. I contributed to the game's lighting and implemented most systems that change according to the time passed. I also did a lot of work on the monster's AI, which works with the help of a basic state machine.</p>
+          <a href="https://ballondeplage.itch.io/knock-knock" target="_blank" rel="noopener"><span data-l="fr">Jouer sur itch.io</span><span data-l="en">Play on itch.io</span></a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__media"><img src="img/vocalomancer_logo.png" alt="The Vocalomancer" loading="lazy" /></div>
+        <div>
+          <h3>The Vocalomancer</h3>
+          <p class="project__meta">2020 · Unity · Wonderjam UQAC · <span data-l="fr">Programmeur / level designer</span><span data-l="en">Programmer / level designer</span></p>
+          <p data-l="fr">Un jeu de puzzle/plateforme, entrée au Wonderjam UQAC de l'automne 2020, fait à deux, basé sur la synthèse vocale et les commandes entrées par le joueur. Je me suis occupé en grande partie du mouvement, de certaines commandes et de la plupart du level design.</p>
+          <p data-l="en">A puzzle/platforming entry in the Autumn Wonderjam of 2020, made in a team of two, based on text-to-speech commands entered by the player. I did most of the game's movement code, most of the level design and creation, and a few of the spells the player can cast.</p>
+          <a href="https://julienbil.itch.io/the-vocalomancer" target="_blank" rel="noopener"><span data-l="fr">Jouer sur itch.io</span><span data-l="en">Play on itch.io</span></a>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__media"><img src="img/dsp_logo.png" alt="Don't Spread It" loading="lazy" /></div>
+        <div>
+          <h3>Don't Spread It</h3>
+          <p class="project__meta">2019 – 2020 · Unity · <span data-l="fr">Jeu sérieux</span><span data-l="en">Serious game</span> · <span data-l="fr">Programmeur</span><span data-l="en">Programmer</span></p>
+          <p data-l="fr">Ma première expérience de création de jeu vidéo en groupe est ce jeu sérieux où le joueur doit magasiner dans un centre commercial tout en évitant les passants, visant à sensibiliser les joueurs à la propagation de virus dans les lieux publics. J'ai personnellement travaillé sur le système permettant la propagation de ce virus entre le joueur, les personnages non joueurs et d'autres points d'intérêt, ainsi que sur le mouvement du joueur.</p>
+          <p data-l="en">This was my first experience working in a group to create a serious video game, made to raise awareness of how viruses spread in crowded places. The player collects items through a shopping mall, then gets a detailed recap of who ultimately got infected, and what portion of that was due to the player. I mostly worked on the infection mechanics between NPCs, the player and other points of interest, plus some of the player movement and interaction bindings.</p>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project__media"><img src="img/wonderjam_logo.png" alt="Ascentop" loading="lazy" /></div>
+        <div>
+          <h3>Ascentop</h3>
+          <p class="project__meta">2019 · Unity · Wonderjam UQAC · <span data-l="fr">Programmeur</span><span data-l="en">Programmer</span></p>
+          <p data-l="fr">Ascentop fut mon tout premier game jam, au Wonderjam de l'hiver 2019. J'ai travaillé sur l'interface, le système de power-ups et les torches qui ont une intensité dynamique et réagissent à l'eau.</p>
+          <p data-l="en">The very first game jam game I ever made, for the Winter Wonderjam of 2019 at UQAC. I worked on the game's UI, its power-up system, and the dynamic torch props in the background that react to the water.</p>
+          <a href="https://gamejolt.com/games/ascentop/400376" target="_blank" rel="noopener"><span data-l="fr">Jouer sur Game Jolt</span><span data-l="en">Play on Game Jolt</span></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ========== WORK ========== -->
+  <section id="work">
+    <div class="wrap">
+      <h2><span data-l="fr">Expérience</span><span data-l="en">Work</span></h2>
+
+      <div class="job">
+        <h3><span data-l="fr">Développeur C# / .NET MAUI</span><span data-l="en">C# / .NET MAUI developer</span></h3>
+        <p class="job__meta">DMCTI · <span data-l="fr">2023 – aujourd'hui</span><span data-l="en">2023 – present</span></p>
+        <!-- Worksheet Q5 -->
+        <p data-l="fr">Chez DMCTI, je m'occupe principalement de la maintenance de nos nombreuses applications, qui roulent depuis plusieurs années déjà. Ça inclut deux énormes migrations&nbsp;: d'abord de Xamarin vers MAUI à la fin de 2025, puis de .NET 8 vers .NET 9.</p>
+        <p data-l="fr">J'ai développé une grande attention au détail à travers ce travail, et j'utilise de nombreux outils professionnels, notamment Git pour le contrôle de versions et les branches, ainsi que l'émulateur Android de Visual Studio.</p>
+        <p data-l="en">At DMCTI, I mainly maintain our many applications, which have been running for several years already. That has included two huge migrations: first from Xamarin to MAUI at the end of 2025, then from .NET 8 to .NET 9.</p>
+        <p data-l="en">This work has given me great attention to detail, and I use many professional tools, notably Git for version control and branching, and Visual Studio's Android emulator.</p>
+      </div>
+
+      <div class="job">
+        <h3><span data-l="fr">Technicien informatique</span><span data-l="en">IT technician</span></h3>
+        <p class="job__meta">Newmont (Goldcorp) · <span data-l="fr">Mine Éléonore</span><span data-l="en">Éléonore mine</span> · 2019 – 2020</p>
+        <p data-l="fr">J'ai travaillé avec un système de backlog complexe pour gérer les besoins d'un site minier d'environ 800 personnes, dans une équipe de 5 techniciens. Ces tâches allaient des plus simples, telles que l'installation d'imprimantes sur le réseau minier et le reformatage d'ordinateurs, à des tâches bien plus complexes comme l'assistance, sur plusieurs semaines, à la migration de tous les comptes usagers du site vers un nouveau système.</p>
+        <p data-l="en">I worked with a complex backlog system to manage the needs of around 800 employees on the Éléonore mining site, in a team of about 5 people working closely together, constantly adapting to new and unique requests. Tasks ranged from configuring printers on the mine's network and reformatting unused computers to assisting users throughout a site-wide account migration.</p>
+      </div>
+
+      <div class="job">
+        <h3><span data-l="fr">Programmeur (stage)</span><span data-l="en">Programmer (internship)</span></h3>
+        <p class="job__meta">CGI · 2018</p>
+        <p data-l="fr">À CGI, mon premier stage, durant ma dernière session de cégep en informatique, j'ai principalement travaillé en COBOL et en JCL pour la Banque Nationale. Ce fut une expérience de travail intéressante et très corporative, malgré le fait que ces anciens langages étaient difficiles à utiliser.</p>
+        <p data-l="en">CGI was my first internship in programming. I worked mostly in COBOL and learnt JCL on the fly to work on routine programs for the National Bank of Canada. It was a very interesting experience to adapt to older technology in order to maintain an equally old code base.</p>
+      </div>
+
+      <div class="school">
+        <p><span data-l="fr">Baccalauréat en développement de jeux vidéo, UQAC</span><span data-l="en">Bachelor's in video game development, UQAC</span></p>
+        <p><span data-l="fr">DEC en informatique, Cégep d'Alma</span><span data-l="en">College diploma (DEC) in computer science, Cégep d'Alma</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section id="about">
+    <div class="wrap about">
+      <h2><span data-l="fr">À propos</span><span data-l="en">About me</span></h2>
+      <!-- Worksheet Q6 -->
+      <p data-l="fr">J'ai tendance à amener de la stabilité au sein d'une équipe&nbsp;: trouver des compromis, m'assurer que tout le monde est coordonné avec ce que j'entreprends, et combler les trous au besoin, autant lors des nombreux game jams auxquels j'ai participé que chez Doremink. Je suis minutieux, patient et attentif.</p>
+      <p data-l="en">I tend to bring stability to a team: finding compromises, making sure everyone is in sync with what I'm working on, and filling the gaps when needed, both at the many game jams I've taken part in and at Doremink. I'm meticulous, patient and attentive.</p>
+      <p data-l="fr">Après avoir voyagé à travers le monde lors de mon enfance, notamment en Tanzanie et en Nouvelle-Calédonie, je suis bilingue (écrit et parlé), habitué au changement et ouvert d'esprit!</p>
+      <p data-l="en">After travelling a lot in my childhood, most notably to Tanzania and New Caledonia, I consider myself bilingual, both written and spoken. I'm used to change and open-minded!</p>
+      <p data-l="fr">Je suis passionné par les jeux de stratégie, mais aussi un grand fan de roguelikes et de TCG. J'ai aussi un faible pour les jeux de rôle, plus précisément pour le worldbuilding, et les jeux qui y prêtent attention, tels que Donjons et Dragons.</p>
+      <p data-l="en">I'm passionate about strategy games, but also a big fan of roguelikes and TCGs. I also have a weak spot for role-playing games, most precisely for the worldbuilding, and games that give a lot of attention to the environment and story, such as Dungeons and Dragons.</p>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section id="contact" class="contact">
+    <div class="wrap">
+      <h2>Contact</h2>
+      <!-- Worksheet Q7 -->
+      <p data-l="fr">Je recherche en ce moment un poste au sein d'une équipe travaillant sur tout ce qui est jeu ou logiciel, notamment en tant que programmeur gameplay ou UI, ou en utilisant mes compétences en C# et .NET.</p>
+      <p data-l="en">I'm currently looking for a position on a team working on games or software, especially as a gameplay or UI programmer, or in a role where I can use my C# and .NET skills.</p>
+      <div class="actions">
+        <a class="button" href="mailto:guillaumelm@msn.com">guillaumelm@msn.com</a>
+        <a href="https://www.linkedin.com/in/guillaume-lamontagne-morin/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/Slival" target="_blank" rel="noopener">GitHub</a>
+        <!-- To update a CV, replace the PDF in docs/ with a file of the same name. -->
+        <a data-l="fr" href="docs/CV%20-%20Guillaume%20L%20Morin.pdf" target="_blank" rel="noopener">CV (PDF)</a>
+        <a data-l="en" href="docs/Resume%20-%20Guillaume%20L%20Morin.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Guillaume Lamontagne Morin, 2026</div>
+</footer>
+</body>
 </html>
