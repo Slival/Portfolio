@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" />
-  <link rel="stylesheet" href="css/style.css?v=2" />
+  <link rel="stylesheet" href="css/style.css?v=7" />
   <script src="js/main.js?v=2"></script>
 </head>
 <body>
@@ -128,9 +128,19 @@
           </div>
         </div>
         <div class="shots">
-          <!-- Swap these for your own GemTide GIFs when you have them. -->
-          <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4770100/bc3e01a52b0b6b2aa42d3356af3a033e2f7db3f3/ss_bc3e01a52b0b6b2aa42d3356af3a033e2f7db3f3.1920x1080.jpg" alt="GemTide" loading="lazy" />
-          <img src="https://doremink.github.io/gemtide-presskit/images/gemtide_full_big.png" alt="GemTide" loading="lazy" />
+          <!-- Screenshots of things Guillaume built; captions tie them to the list. -->
+          <figure>
+            <img src="img/gemtide-talent-tree.jpg" alt="GemTide : arbre de talents / talent tree" loading="lazy" />
+            <figcaption><span data-l="fr">L'arbre de talents</span><span data-l="en">The talent tree</span></figcaption>
+          </figure>
+          <figure>
+            <img src="img/gemtide-achievements.jpg" alt="GemTide : écran des succès / achievements screen" loading="lazy" />
+            <figcaption><span data-l="fr">L'écran des succès</span><span data-l="en">The achievements screen</span></figcaption>
+          </figure>
+          <figure>
+            <img src="img/gemtide-menu.jpg" alt="GemTide : menu principal / main menu" loading="lazy" />
+            <figcaption><span data-l="fr">Le menu principal et ses bancs de poissons</span><span data-l="en">The main menu and its schools of fish</span></figcaption>
+          </figure>
         </div>
       </div>
     </div>
@@ -184,7 +194,7 @@
       <h3 class="minis__title"><span data-l="fr">Autres projets</span><span data-l="en">More projects</span></h3>
       <div class="minis">
         <article class="mini">
-          <img class="contain" src="img/pachinko_logo.png" alt="Pachinko Mountain" loading="lazy" />
+          <img src="img/pachinko.jpg" alt="Pachinko Mountain" loading="lazy" />
           <div class="mini__body">
             <h4>Pachinko Mountain</h4>
             <p class="project__meta">2021 · Unity · Wonderjam UQAC × Ubisoft Saguenay · <span data-l="fr">Équipe de 6</span><span data-l="en">Team of 6</span><br><span class="award"><span data-l="fr">3e place</span><span data-l="en">3rd place</span></span></p>
@@ -194,7 +204,7 @@
           </div>
         </article>
         <article class="mini">
-          <img src="img/knock-knock_logo.png" alt="Knock-Knock" loading="lazy" />
+          <img src="img/knock-knock.jpg" alt="Knock-Knock" loading="lazy" />
           <div class="mini__body">
             <h4>Knock-Knock</h4>
             <p class="project__meta">2021 · Unity · Wonderjam UQAC × Ubisoft Saguenay · <span data-l="fr">Équipe de 5</span><span data-l="en">Team of 5</span><br><span class="award"><span data-l="fr">3e place</span><span data-l="en">3rd place</span></span></p>
@@ -204,7 +214,7 @@
           </div>
         </article>
         <article class="mini">
-          <img src="img/vocalomancer.jpg" alt="The Vocalomancer" loading="lazy" />
+          <img src="img/vocalomancer.jpg?v=2" alt="The Vocalomancer" loading="lazy" />
           <div class="mini__body">
             <h4>The Vocalomancer</h4>
             <p class="project__meta">2020 · Unity · Wonderjam UQAC · <span data-l="fr">Équipe de 2</span><span data-l="en">Team of 2</span></p>
@@ -223,7 +233,7 @@
           </div>
         </article>
         <article class="mini">
-          <img src="img/wonderjam.jpg" alt="Ascentop" loading="lazy" />
+          <img src="img/ascentop.jpg" alt="Ascentop" loading="lazy" />
           <div class="mini__body">
             <h4>Ascentop</h4>
             <p class="project__meta">2019 · Unity · Wonderjam UQAC</p>
@@ -269,6 +279,26 @@
         <p><span data-l="fr">Baccalauréat en développement de jeux vidéo, UQAC</span><span data-l="en">Bachelor's in video game development, UQAC</span></p>
         <p><span data-l="fr">DEC en informatique, Cégep d'Alma</span><span data-l="en">College diploma (DEC) in computer science, Cégep d'Alma</span></p>
       </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== (same lists as the CV) -->
+  <section id="skills">
+    <div class="wrap">
+      <h2><span data-l="fr">Compétences</span><span data-l="en">Skills</span></h2>
+      <dl class="skills">
+        <dt><span data-l="fr">Programmation</span><span data-l="en">Programming</span></dt>
+        <dd>C++, C#, SQL</dd>
+        <dt><span data-l="fr">Moteurs et outils</span><span data-l="en">Engines &amp; tools</span></dt>
+        <dd>Unity, Unreal Engine, .NET MAUI, Shader Graph, Git, Perforce, Visual Studio, Trello</dd>
+        <dt><span data-l="fr">Langues</span><span data-l="en">Languages</span></dt>
+        <dd><span data-l="fr">Bilingue, français et anglais (oral et écrit)</span><span data-l="en">Fully bilingual, French and English (spoken and written)</span></dd>
+        <dt><span data-l="fr">Outils IA</span><span data-l="en">AI tools</span></dt>
+        <dd>
+          <span data-l="fr">J'utilise Claude Code comme un outil complémentaire à mon expérience, qui me permet d'accélérer les tâches répétitives, de faire des recherches avancées dans le code et de passer en revue mes changements afin de repérer les bugs ou les choix de conception sous-optimaux avant qu'ils n'atteignent le dépôt.</span>
+          <span data-l="en">I use Claude Code to complement my experience. It helps speed up repetitive tasks, runs advanced searches through code and reviews code to catch bugs or suboptimal design choices before they reach any repository.</span>
+        </dd>
+      </dl>
     </div>
   </section>
 
