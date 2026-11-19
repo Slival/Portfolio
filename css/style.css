@@ -152,6 +152,7 @@ section { padding: 64px 0; border-top: 1px solid var(--line); }
 /* ---------- About / contact ---------- */
 .contact { padding-bottom: 80px; }
 footer { border-top: 1px solid var(--line); padding: 20px 0; color: var(--text-soft); font-size: .85rem; }
+.footer__ai { margin: 4px 0 0; font-size: .78rem; opacity: .8; }
 
 /* ---------- Your words go here ----------
    Marks text Guillaume still has to write (see the worksheet).
